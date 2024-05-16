@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <h1> Papa Giovanni-Pietro's Pizza </h1>
+</header>
+<nav>
+    <ul>
+        <li><a href=""> Übersicht</a></li>
+        <li><a href="">Bestellung</a></li>
+        <li><a href="">Bäcker</a></li>
+        <li><a href="">Lieferamt</a></li>
+    </ul>
+</nav>
+<main>
+    <section>
+        <h2>
+            Speisekarte
+        </h2>
+        <table>
+            <tr>
+                <td>
+                    <img alt="Margherita" height="120" src="./Images/Margheritta.png" width="120">
+                    <br>
+                    Margherita: 8.00E
+                </td>
+                <td>
+                    <img alt="Hawaii" height="120" src="./Images/Hawaii.jpg" width="120">
+                    <br>
+                    Hawaii: 11.00E
+                </td>
+                <td>
+                    <img alt="QF" height="120" src="./Images/Quattro%20Formaggio.webp" width="120">
+                    <br>
+                    Quattro Formaggi: 10.00E
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>
+            Warenkorb
+        </h2>
+        <form action="https://echo.fbi.h-da.de/" method="get">
+            <fieldset>
+                <legend>Aktuelle Auswahl</legend>
+                <label for="Auswahl">
+                    <textarea id="Auswahl" name="Auswahl">
+                    </textarea>
+                </label>
+                <br>
+                <br>
+                <input id="Delete" onclick="document.getElementById('Auswahl').value = ''" type="Button"
+                       value="Auswahl löschen">
+                <br>
+                <br>
+                <label> Gesamtpreis: </label>
+            </fieldset>
+            <fieldset>
+                <legend>Verpackungswunsch</legend>
+                <label>
+                    <input type="checkbox" value="Einweg"> Einweg
+                    <input type="checkbox"> Mehrweg
+                    <input type="checkbox"> Ohne
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    Name <input name="Name" placeholder="Max Muster" type="text">
+                    <br>
+                    Email <input name="Email" placeholder="max@gmail.com" type="text">
+                    <br>
+                    Addresse <input name="Adresse" placeholder="Musterstraße 12" type="text">
+                </label>
+                <br>
+                <br>
+                <input type="Submit" value="Bestellen">
+                <input type="Reset" value="Zurücksetzen">
+            </fieldset>
+        </form>
+    </section>
+</main>
+<footer>
+    <br>
+    Bei Fragen oder Probleme bitte Main an tuandung.le@stud.h-da.de
+</footer>
+</body>
+</html>
