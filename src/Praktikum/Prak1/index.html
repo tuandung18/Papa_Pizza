@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="javascript.js"></script>
 </head>
 <body>
 <header>
@@ -55,7 +56,7 @@
                 </label>
                 <br>
                 <br>
-                <input id="Delete" onclick="document.getElementById('Auswahl').value = ''" type="Button"
+                <input id="Delete" onclick=eraseChoice('Auswahl') type="Button"
                        value="Auswahl löschen">
                 <br>
                 <br>
@@ -64,9 +65,9 @@
             <fieldset>
                 <legend>Verpackungswunsch</legend>
                 <label>
-                    <input type="checkbox" value="Einweg"> Einweg
-                    <input type="checkbox"> Mehrweg
-                    <input type="checkbox"> Ohne
+                    <input type="radio" name="radiobutton" value="Einweg"> Einweg
+                    <input type="radio" name="radiobutton"> Mehrweg
+                    <input type="radio" name="radiobutton"> Ohne
                 </label>
             </fieldset>
             <fieldset>
