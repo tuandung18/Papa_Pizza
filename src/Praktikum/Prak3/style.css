@@ -1,0 +1,53 @@
+html, body{
+    height:80%;
+}
+body{
+    background: linear-gradient(103.2deg, rgb(53, 108, 128) 14.6%, rgb(57, 187, 231) 91.5%);
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+
+    place-content: stretch stretch;
+    background: lightyellow;
+    margin: 12px;
+    flex-wrap: wrap;
+    height: 100%;
+
+
+}
+nav, form{
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    place-content: space-between;
+}
+.item{
+    background: black;
+    color: greenyellow;
+    flex: 1 1 30%;
+    margin: 5px;
+    max-width: 120px;
+    height: 180px;
+}
+
+.section{
+    justify-content: center;
+}
+.cart, .menu{
+    min-width: 30%;
+}
