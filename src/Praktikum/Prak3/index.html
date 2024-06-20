@@ -12,11 +12,11 @@
 </header>
 <main>
 <nav>
-    <ul>
-        <li><a href=""> Übersicht</a></li>
+    <ul class="list">
+        <li><a href="">Übersicht</a></li>
         <li><a href="">Bestellung</a></li>
         <li><a href="">Bäcker</a></li>
-        <li><a href="">Lieferamt</a></li>
+        <li><a href="">Lieferant</a></li>
     </ul>
 </nav>
     <section class="section menu">
@@ -73,13 +73,20 @@
                 </label>
             </fieldset>
             <fieldset>
-                <label>
-                    Name <input name="Name" placeholder="Max Muster" type="text">
+                <label class="label">
+                    Name
+                    </label>
+                <input class="input" name="Name" placeholder="Max Muster" type="text" required />
+                <br>
+                    <label class="label">
+                    Email
+                    </label>
+                <input class="input" name="Email" placeholder="max@gmail.com" type="text" required>
                     <br>
-                    Email <input name="Email" placeholder="max@gmail.com" type="text">
-                    <br>
-                    Addresse <input name="Adresse" placeholder="Musterstraße 12" type="text">
+                        <label class="label">
+                    Addresse
                 </label>
+                <input class="input" name="Adresse" placeholder="Musterstraße 12" type="text" required>
                 <br>
                 <br>
                 <input type="Submit" value="Bestellen">

@@ -12,21 +12,19 @@ header{
     color: yellow;
     font-size: 20px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 main{
     display: flex;
-
-    place-content: stretch stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
     background: lightyellow;
     margin: 12px;
     flex-wrap: wrap;
-    height: 100%;
-
-
 }
+
 nav, form{
     background-color: lightgray;
 }
@@ -34,12 +32,10 @@ nav, form{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    place-content: space-between;
 }
 .item{
     background: black;
     color: greenyellow;
-    flex: 1 1 30%;
     margin: 5px;
     max-width: 120px;
     height: 180px;
@@ -48,6 +44,27 @@ nav, form{
 .section{
     justify-content: center;
 }
-.cart, .menu{
-    min-width: 30%;
+
+
+.label{
+    display: inline-block;
+    width: 75px;
+}
+
+.input{
+    width: 150px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+@media (max-width: 800px) {
+    main{
+        flex-direction: column;
+    }
+    li{
+        display: inline-block;
+    }
+
 }
