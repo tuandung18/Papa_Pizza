@@ -23,22 +23,7 @@
         <h2>
             Speisekarte
         </h2>
-        <div class="container">
-                <div class="item">
-                    <img alt="Margherita" height="120" src="./Images/margheritta.png" width="120">
-                    <br>
-                    Margherita: 8.00E
-                </div>
-                <div class="item">
-                    <img alt="Hawaii" height="120" src="./Images/hawaii.jpg" width="120">
-                    <br>
-                    Hawaii: 11.00E
-                </div>
-                <div class="item">
-                    <img alt="QF" height="120" src="./Images/quattro%20Formaggio.webp" width="120">
-                    <br>
-                    Quattro Formaggi: 10.00E
-                </div>
+        <div id="speisekarte" class="container">
         </div>
     </section>
 
@@ -51,9 +36,7 @@
                 <legend>Aktuelle Auswahl</legend>
                 <label for="Auswahl">
                     <select id="Auswahl" name="Auswahl" multiple>
-                        <option value="Margherita">Margherita</option>
-                        <option value="Hawaii">Hawaii</option>
-                        <option value="Quattro Formaggi">Quattro Formaggi</option>
+                       
                     </select>
                 </label>
                 <br>
@@ -62,7 +45,7 @@
                        value="Auswahl löschen">
                 <br>
                 <br>
-                <label> Gesamtpreis: </label>
+                <label id="preis"> Gesamtpreis: </label>
             </fieldset>
             <fieldset>
                 <legend>Verpackungswunsch</legend>
@@ -89,8 +72,8 @@
                 <input class="input" name="Adresse" placeholder="Musterstraße 12" type="text" required>
                 <br>
                 <br>
-                <input type="Submit" value="Bestellen">
-                <input type="Reset" value="Zurücksetzen">
+                <input id="submitBtn" type="Submit" value="Bestellen">
+                <input id="erasebtn" type="Reset" value="Zurücksetzen">
             </fieldset>
         </form>
     </section>
