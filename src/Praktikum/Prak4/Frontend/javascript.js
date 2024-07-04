@@ -1,6 +1,6 @@
 let preis = 0;
 
-fetch('../article.json', {
+fetch('article.json', {
     method: 'GET',
 })
     .then(response => response.json())

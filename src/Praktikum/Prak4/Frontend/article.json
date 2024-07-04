@@ -1,0 +1,38 @@
+[
+  {
+    "article_id": 1,
+    "name": "Salami",
+    "picture": "img/salami.jpg",
+    "price": 8.5
+  },
+  {
+    "article_id": 2,
+    "name": "Vegetaria",
+    "picture": "img/vegetarian.jpg",
+    "price": 12.5
+  },
+  {
+    "article_id": 3,
+    "name": "Spinat-Hühnchen",
+    "picture": "img/spinatHühnchen.jpg",
+    "price": 12
+  },
+  {
+    "article_id": 4,
+    "name": "Margherita",
+    "picture": "img/margherita.jpg",
+    "price": 8
+  },
+  {
+    "article_id": 5,
+    "name": "Hawaii",
+    "picture": "img/hawaii.jpg",
+    "price": 11
+  },
+  {
+    "article_id": 6,
+    "name": "Quattro Formaggi",
+    "picture": "img/quattroFormaggi.jpg",
+    "price": 10
+  }
+]
